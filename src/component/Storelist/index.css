@@ -1,0 +1,113 @@
+.store-list-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.store-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.store-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.store-table th,
+.store-table td {
+    padding: 16px 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.store-table th {
+    background-color: #2196F3;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.store-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.store-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.store-table tr:hover {
+    background-color: #e8f5e9;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.store-table td {
+    color: #555;
+    font-size: 15px;
+}
+
+.store-table th:first-child,
+.store-table td:first-child {
+    border-left: none;
+}
+
+.store-table th:last-child,
+.store-table td:last-child {
+    border-right: none;
+}
+
+.store-table tr:first-child th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.store-table tr:first-child th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.store-table tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+.store-table tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+.filters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.filters-grid input {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.add-store-button{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

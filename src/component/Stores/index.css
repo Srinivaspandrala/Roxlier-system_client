@@ -1,0 +1,165 @@
+
+.stores-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.stores-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stores-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.stores-table th, .stores-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.stores-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.stores-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.stores-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styling for the Stores component */
+
+.store-list-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.store-list-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.store-table {
+  width: 100%;
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.store-table th {
+  background-color: #2196F3;
+  color: white;
+  padding: 16px 20px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.store-table td {
+  padding: 16px 20px;
+  text-align: left;
+  color: #555;
+  font-size: 15px;
+}
+
+.store-table tr:nth-child(even) {
+  background-color: #f6fcff;
+}
+
+.store-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.store-table tr:hover {
+  background-color: #e8f5e9;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.filters-grid input,
+.filters-grid select {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ratings-button{
+  background-color:#FF9800;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+  height: 38px;
+
+
+}
+
+.ratings-button:hover {
+  background-color:#FF9800;
+}
+
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(to right, #f700ff, #b25fff);
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+.back-btn:focus {
+  outline: 2px solid #2196F3;
+  outline-offset: 2px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px; 
+  margin-bottom: 20px;
+}

@@ -1,0 +1,91 @@
+.dashboard-container {
+    padding: 40px;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dashboard-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .stats-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .stat-card {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-left: 6px solid;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    text-align: center;
+  }
+  
+  .stat-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .stat-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .download-section {
+    margin-top: 40px;
+  }
+  
+  .download-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #d95d3f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .download-btn:hover {
+    background-color: #c0492f;
+  }
+  .quick-link-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .quick-link-card {
+    background: #fff;
+    padding: 14px 24px;
+    border-left: 5px solid;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .quick-link-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  }
+  

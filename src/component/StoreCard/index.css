@@ -1,0 +1,143 @@
+.store-cards-wrapper {
+  padding: 20px;
+}
+
+.filter-bar {
+  margin-bottom: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.store-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.store-card {
+  display: flex;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.store-image {
+  width: 240px;
+  height: 200px;
+  object-fit: cover;
+  border-right: 1px solid #eee;
+}
+
+.store-content {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.address {
+  color: #666;
+  margin: 8px 0;
+}
+
+.overall-rating {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.rate-button {
+  background: linear-gradient(to bottom right, #3a8dde, #1e5799);
+  border: none;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.rate-button:hover {
+  background-color: #c0492f;
+}
+
+/* Overlay */
+.rating-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 30, 30, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.rating-box {
+  background: white;
+  padding: 25px 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.star-input {
+  font-size: 2rem;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.star {
+  color: #ddd;
+  transition: color 0.2s;
+}
+
+.star.filled {
+  color: #f39c12;
+}
+
+.rating-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.rating-buttons button {
+  padding: 8px 16px;
+  background: linear-gradient(to bottom right, #3a8dde, #1e5799);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.rating-buttons button:hover {
+  background: linear-gradient(to bottom right, #3a8dde, #1e5799);
+}
+
+
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 10px;
+}
+
+.filter-bar input,
+.filter-bar select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  flex: 1;
+}
+
+.user-rating {
+  margin-left: 10px;
+  color: #c04b32;
+  font-weight: 500;
+}
+

@@ -1,0 +1,100 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 96%;
+    background-color: #fff;
+    padding: 12px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo .highlight {
+    color: #007bff;
+  }
+  
+  .navbar-user {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    gap: 10px;
+  }
+  
+  .user-avatar {
+    background: linear-gradient(to bottom right, #3a8dde, #1e5799);
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    transition: background 0.3s ease;
+  }
+  
+  .user-avatar:hover {
+    background: linear-gradient(to bottom right, #3a8dde, #1e5799);
+  }
+  
+  .user-icon {
+    font-size: 16px;
+  }
+  
+  .username {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 48px;
+    right: 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    min-width: 180px;
+    animation: fadeIn 0.2s ease-in-out;
+  }
+  
+  .dropdown button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  .dropdown button:hover {
+    color: #007bff;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

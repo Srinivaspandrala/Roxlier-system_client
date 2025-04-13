@@ -1,0 +1,120 @@
+.user-list-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+  }
+  
+  .user-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 16px 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-table tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  .user-table tr:hover {
+    background-color: #e8f5e9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-table td {
+    color: #555;
+    font-size: 15px;
+  }
+  
+  .user-table th:first-child,
+  .user-table td:first-child {
+    border-left: none;
+  }
+  
+  .user-table th:last-child,
+  .user-table td:last-child {
+    border-right: none;
+  }
+  
+  /* Add a subtle shadow effect for the table rows */
+  .user-table tr {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .user-table tr:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .filters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .filters-grid input,
+  .filters-grid select {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  
+
+  .add-user-button:hover {
+    background-color: #0056b3;
+  }
+
+  .back-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(to right, #f700ff, #b25fff);
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+
+  .back-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }

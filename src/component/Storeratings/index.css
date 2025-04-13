@@ -1,0 +1,65 @@
+.store-ratings-page {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+
+}
+
+.store-ratings-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ratings-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ratings-table th,
+.ratings-table td {
+    padding: 16px 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+
+}
+
+.ratings-table th {
+  background-color: #FF9800;
+  color: white;
+  font-weight: bold;
+}
+
+.ratings-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.ratings-table tr:hover {
+  background-color: #ddd;
+}
+
+.ratings-table td {
+  color: #555;
+}
+
+.ratings-table td .fa-star {
+  margin-left: 5px;
+}
+.mystore-btn{
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    height: 38px;
+}

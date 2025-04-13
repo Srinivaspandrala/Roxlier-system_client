@@ -1,0 +1,91 @@
+.register-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+  }
+  
+  .register-card {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .register-card h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .input-group input {
+    width: 94%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .password-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-input input {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .password-input span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+  }
+  
+  .register-btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to bottom right, #3a8dde, #00b7ff);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .register-btn:hover {
+    background-color: #c0492f;
+  }
+
+  .already-account {
+    text-align: center;
+    margin-top: 15px;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .already-account:hover {
+    text-decoration: underline;
+  }
