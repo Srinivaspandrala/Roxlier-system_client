@@ -100,10 +100,13 @@ const Login = () => {
           <button type="submit" className="login-btn">Login</button>
         </form>
       </div>
-
-      <p><strong>Admin Credentials:</strong></p>
+      <div className="code">
+<p><strong>Admin Credentials:</strong></p>
       <p>Email: <code>admin@gmail.com</code></p>
       <p>Password: <code>admin123</code></p>
+
+</div>
+
     </div>
   );
 };
