@@ -101,9 +101,9 @@ const Login = () => {
         </form>
       </div>
 
-      <p>credentials for admin</p>
-      <p>mail:admin@gmail.com</p>
-      <p>password:admin123</p>
+      <p><strong>Admin Credentials:</strong></p>
+      <p>Email: <code>admin@gmail.com</code></p>
+      <p>Password: <code>admin123</code></p>
     </div>
   );
 };
